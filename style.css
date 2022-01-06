@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto+Condensed|Squada+One&display=swap');
+
+
+
+body{
+    margin-top: 105px;
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px #40bf5e;
+    opacity: 0.9;
+    background: #080808 !important;
+    justify-content: center;   
+}
+
+.navbar .nav-item{
+    font-size: 1.2rem;
+    padding-right: 20px;
+}
+.navbar-nav{
+    margin-top: 10px !important;
+}
+.navbar button{
+    padding: 5px 20px;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-linkk{
+    color: #fffaf1 !important;
+    font-family: 'Roboto Condensed';
+    text-decoration: none !important;
+}
+
+.nav-linkk:hover{
+    color: #40bf5e !important;
+}
+
+.active .nav-linkk{
+    color: #40bf5e;
+}
+
+i.fa-smile-wink{
+    color:#ffee75;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Squada One';
+    font-size: 40px;
+}
+
+#showcase{
+    margin-top: 105px;
+    background: url(images/book1.jpg) no-repeat scroll 0 0 transparent;
+    position: relative;
+    min-height: 600px;
+}
+#showcase button{
+    padding: 5px 43px;
+    font-family: 'Roboto Condensed';
+}
+.primary-overlay{
+    background: rgba(50, 146, 166, .2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.img-fluid{
+    height: 400px;
+    width: 300px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.text{
+    margin-top: 80px;
+}
+.text-2{
+    margin: 0 auto;
+    color: black;
+}
+.btn{
+    
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    
+}
+
+#routine{
+    background: rgba(50, 146, 166, .1) !important;
+    box-shadow: 1px 1px 5px #92ca91;
+    opacity: 0.9;
+}
+#routine .col{
+    margin-top: 70px;
+}
+#routine button{
+    justify-content: center;
+    font-size: 15px;
+    padding: 5px 15px;
+    
+}
+#routine .card:hover{
+    background: rgba(5, 146, 166, 1);
+    color: #fff !important;
+}
+#routine .card:hover button{
+    background: #fff;
+    color: #48bf91;
+}
+#routine .card:hover h3{
+    color: #fff !important;
+}
+#routine .card:hover p{
+    color: #fff !important;
+}
+#routine h2{
+    font-family: 'Roboto Condensed'; 
+}
+
+.info-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: 2px #ddd solid;
+}
+i.fa-caret-square-down{
+    color: #5e8bf2;
+}
+i.fa-caret-square-down span{
+    font-family: 'Roboto Condensed';
+}
+
+#accordion .card-header:hover{
+    background: rgba(0, 0, 0, .8);
+    color: #fff !important;
+}
+
+#contact-number .container{
+    margin-top: 70px;
+}
+
+#notes{
+    background: rgba(50, 146, 166, .1) !important;
+    box-shadow: 1px 1px 2px #92ca91;
+    opacity: 0.9;
+    
+}
+#notes .container{
+    margin-top: 70px;
+}
+
+#notes button{
+    justify-content: center;
+    font-size: 15px;
+    padding: 5px 30px
+}
+#notes .card:hover{
+    background: rgba(64, 191, 94, 1);
+    color: #fff !important;
+}
+#notes .card:hover button{
+    background: #fff;
+    color: #48bf91;
+}
+#notes .card:hover h3{
+    color: #fff !important;
+}
+#notes .card:hover p{
+    color: #fff !important;
+}
+#notes h2{
+    font-family: 'Roboto Condensed'; 
+}
+
+#about img{
+    margin-top: -50px;
+}
+#about i{
+    font-size: 25px;
+}
+#about .card:hover{
+    background: #40bf5e;
+    color: #fff;
+}
+#about .card:hover i{
+    color: #fff;
+}
+#about .card{
+    margin: 0 auto;
+}
+#about h2{
+    font-family: 'Roboto Condensed';
+}
+#contact-number{
+    background: rgba(50, 146, 166, .1) !important;
+}
+
+#contact-number h2{
+    font-family: 'Roboto Condensed';
+}
+#contact h3{
+    font-family: 'Roboto Condensed';
+    color: #40bf5e;
+    text-transform: uppercase;
+}
+#contact{
+    box-shadow: 1px 1px 7px #5e8bf2;
+    opacity: 0.9;
+}
+#main-footer{
+    background: #080808 !important;
+    font-family: 'Squada One';
+    
+}
+
+
+
+
+
+.form-dark .font-small {
+  font-size: 0.8rem; }
+
+.form-dark .md-form label {
+  color: #fff; }
+
+.form-dark input[type=email]:focus:not([readonly]) {
+  border-bottom: 1px solid #00C851;
+  -webkit-box-shadow: 0 1px 0 0 #00C851;
+  box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=email]:focus:not([readonly]) + label {
+  color: #fff; }
+
+.form-dark input[type=password]:focus:not([readonly]) {
+  border-bottom: 1px solid #00C851;
+  -webkit-box-shadow: 0 1px 0 0 #00C851;
+  box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=digit]:focus:not([readonly]) {
+  border-bottom: 1px solid #00C851;
+  -webkit-box-shadow: 0 1px 0 0 #00C851;
+  box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=password]:focus:not([readonly]) + label {
+  color: #fff; }
+
+.form-dark .modal-header {
+    border-bottom: none;
+}
